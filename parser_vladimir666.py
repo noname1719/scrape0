@@ -1,4 +1,4 @@
-from urllib.request import urlopen
+﻿from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from bs4.element import NavigableString
 import re
@@ -80,4 +80,4 @@ for card in cards:
     with open(filename, 'a', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(data)
-print('complite')
+print('gotovo bldjad')
